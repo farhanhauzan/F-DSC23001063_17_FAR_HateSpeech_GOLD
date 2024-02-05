@@ -1,0 +1,17 @@
+tags:
+  - name: Csv file Processing
+get:
+  description: Your file
+parameters:
+  - name: file
+    in: formData
+    description: file to upload
+    required: true
+    type: file
+responses:
+  '200':
+    description: Successful response
+  '400':
+    description: Bad request
+  '500':
+    description: Internal Server Error
